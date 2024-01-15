@@ -1,4 +1,3 @@
-```markdown
 # Text to SQL using Gemini Pro and Streamlit
 
 ![Flow Diagram](flow.png)
