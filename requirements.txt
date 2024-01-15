@@ -1,3 +1,3 @@
 streamlit # front-end
 google-generativeai #llm
-python-dotenv #for loading env variable
+python-dotenv #for loading env variables
