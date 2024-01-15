@@ -1,5 +1,7 @@
 # Text to SQL using Gemini Pro and Streamlit
 
+# This image shows how the project flow happens.
+
 ![Flow Diagram](flow.png)
 
 This project demonstrates the conversion of English questions to SQL queries using the Gemini Pro model through a Streamlit web application. The SQL queries are executed on a SQLite database.
