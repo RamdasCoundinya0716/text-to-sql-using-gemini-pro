@@ -8,7 +8,7 @@ This project demonstrates the conversion of English questions to SQL queries usi
 
 ## Prerequisites
 
-- Python 3.x installed
+- Python version > 3.9 installed
 - [Streamlit](https://docs.streamlit.io/1.5.3/getting_started/installation.html)
 - [Google Generative AI](https://pypi.org/project/google-generativeai/)
 - [Python-dotenv](https://pypi.org/project/python-dotenv/)
@@ -18,7 +18,7 @@ This project demonstrates the conversion of English questions to SQL queries usi
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/RamdasCoundinya0716/text-to-sql-using-gemini-pro.git
    ```
 
 2. Navigate to the project folder:
@@ -73,7 +73,7 @@ This project demonstrates the conversion of English questions to SQL queries usi
 
 ## Data Generation
 
-- The `sql.py` script generates records with random data(marks to be exact) in the `student` table.
+- The `sql.py` script generates records with random data(marks column to be exact) in the `student` table. You can increase or decrease number of columns based on your wish.
 
 ## Note
 
