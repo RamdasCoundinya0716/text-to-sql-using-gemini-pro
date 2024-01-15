@@ -24,7 +24,7 @@ This project demonstrates the conversion of English questions to SQL queries usi
 2. Navigate to the project folder:
 
    ```bash
-   cd your-repository
+   cd text-to-sql-using-gemini-pro
    ```
 
 3. Create and activate a virtual environment:
