@@ -79,6 +79,4 @@ This project demonstrates the conversion of English questions to SQL queries usi
 
 - Adjust the SQL queries and data generation logic based on your specific use case.
 
-```
-
-Feel free to make any further adjustments or additions based on your project's requirements.
+## Coming up -> Containerizing this app into a docker container. See you then!!
