@@ -98,6 +98,11 @@ To containerize the application using Docker, follow these steps:
 
    Open [http://localhost:8501](http://localhost:8501) in your browser.
 
+Note: If you are lazy to build the docker image, feel free to use my image using the command:
+   ```bash
+   docker run -p 8501:8501 ram0716/text-to-sql-app:v2
+   ```
+
 Make sure to set your Gemini API key in the `.env` file and ensure that your SQLite database (`student.db`) is in the same directory as your Dockerfile and other project files.
 
 Adjust the SQL queries and data generation logic based on your specific use case.
