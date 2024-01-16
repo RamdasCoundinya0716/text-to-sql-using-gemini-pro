@@ -8,12 +8,12 @@ This project demonstrates the conversion of English questions to SQL queries usi
 
 ## Prerequisites
 
-- Python version > 3.9 installed
+- Python version >= 3.9 installed
 - [Streamlit](https://docs.streamlit.io/1.5.3/getting_started/installation.html)
 - [Google Generative AI](https://pypi.org/project/google-generativeai/)
 - [Python-dotenv](https://pypi.org/project/python-dotenv/)
 
-## Setup
+## Setup (Running the app locally)
 
 1. Clone the repository:
 
@@ -79,4 +79,26 @@ This project demonstrates the conversion of English questions to SQL queries usi
 
 - Adjust the SQL queries and data generation logic based on your specific use case.
 
-## Coming up -> Containerizing this app into a docker container. See you then!!
+# Running the app on a docker container:
+To containerize the application using Docker, follow these steps:
+
+1. Create a Docker image:
+
+   ```bash
+   docker build -t text-to-sql-app .
+   ```
+
+2. Run the Docker container:
+
+   ```bash
+   docker run -p 8501:8501 text-to-sql-app
+   ```
+
+3. Access the Streamlit app in a web browser:
+
+   Open [http://localhost:8501](http://localhost:8501) in your browser.
+
+Make sure to set your Gemini API key in the `.env` file and ensure that your SQLite database (`student.db`) is in the same directory as your Dockerfile and other project files.
+
+Adjust the SQL queries and data generation logic based on your specific use case.
+```
