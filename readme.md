@@ -106,4 +106,3 @@ Note: If you are lazy to build the docker image, feel free to use my image using
 Make sure to set your Gemini API key in the `.env` file and ensure that your SQLite database (`student.db`) is in the same directory as your Dockerfile and other project files.
 
 Adjust the SQL queries and data generation logic based on your specific use case.
-```
