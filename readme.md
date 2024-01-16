@@ -69,7 +69,7 @@ This project demonstrates the conversion of English questions to SQL queries usi
 ## SQLite Database
 
 - The SQLite database is named `student.db`.
-- The `students` table schema includes columns: `name`, `class`, `section`, and `marks`.
+- The `student` table schema includes columns: `name`, `class`, `section`, and `marks`.
 
 ## Data Generation
 
